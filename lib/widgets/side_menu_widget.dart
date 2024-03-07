@@ -52,7 +52,7 @@ class _SideMenuWidgetState extends State<SideMenuWidget> {
             Text(
               data.menu[index].title,
               style: TextStyle(
-                fontSize: 16,
+                fontSize: 17,
                 color: isSelected ? Colors.black : Colors.grey,
                 fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
               ),
