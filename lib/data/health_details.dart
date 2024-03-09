@@ -1,4 +1,4 @@
-import 'health_model.dart';
+import '../models/health_model.dart';
 
 class HealthDetails {
   final healthData = [

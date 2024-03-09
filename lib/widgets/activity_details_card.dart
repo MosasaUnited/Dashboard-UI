@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../models/health_details.dart';
+import '../data/health_details.dart';
 import 'custom_card_widget.dart';
 
 class ActivityDetailsCard extends StatelessWidget {

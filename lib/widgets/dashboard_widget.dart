@@ -2,6 +2,7 @@ import 'package:dashboard_ui/widgets/header_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'activity_details_card.dart';
+import 'bar_graph_card.dart';
 import 'line_chart_card.dart';
 
 class DashboardWidget extends StatelessWidget {
@@ -23,6 +24,10 @@ class DashboardWidget extends StatelessWidget {
           height: 18,
         ),
         LineChartCard(),
+        SizedBox(
+          height: 18,
+        ),
+        BarGraphCard(),
       ],
     );
   }
