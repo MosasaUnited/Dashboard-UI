@@ -8,6 +8,9 @@ class HeaderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: TextField(
+        style: const TextStyle(
+          color: Colors.white,
+        ),
         decoration: InputDecoration(
           filled: true,
           fillColor: cardBackgroundColor,
@@ -27,6 +30,9 @@ class HeaderWidget extends StatelessWidget {
             vertical: 5,
           ),
           hintText: 'Search',
+          hintStyle: const TextStyle(
+            color: Colors.grey,
+          ),
           prefixIcon: const Icon(
             Icons.search,
             color: Colors.grey,
